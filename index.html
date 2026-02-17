@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo MAXIR | Consultoría</title>
+
+  <!-- Fuente opcional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav">
+        <div class="brand">
+          <h1>GRUPO<span class="maxir">MAXIR</span></h1>
+          <small>¿BUSCAS SOLUCIONES EFECTIVAS?</small>
+        </div>
+
+        <button class="burger" id="burger" type="button" aria-label="Abrir menú">☰</button>
+
+        <nav class="menu" id="menu" aria-label="Menú principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">¿Quiénes somos?</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#contacto">Contacto</a>
+          <a class="cta-login" href="#login">Iniciar sesión</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <main id="inicio" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="pill">
+            <span class="dot" aria-hidden="true"></span>
+            Consultoría + Capacitación + Recursos Humanos
+          </div>
+
+          <h2>Soluciones efectivas para impulsar tu organización.</h2>
+
+          <p>
+            Más de 25 años respaldando a empresas con servicios de consultoría, capacitación y soporte a recursos humanos,
+            enfocados en resultados medibles y procesos claros.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#servicios">Conoce nuestros servicios →</a>
+            <a class="btn" href="#contacto">Agenda una llamada</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Imagen de portada">
+          <!-- Reemplaza por imagen real -->
+          <img
+            src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1400&auto=format&fit=crop"
+            alt="Equipo trabajando"
+          />
+          <div class="overlay">
+            <h3>Grupo MAXIR</h3>
+            <p>Dedicación, expertise y pasión. Tu equipo de confianza.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== Nosotros ===== -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h3>¿Quiénes somos?</h3>
+          <p>Un equipo comprometido que impulsa el crecimiento y el éxito de cada proyecto con enfoque práctico.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <p class="muted">
+            A lo largo de más de <strong>25 años</strong>, hemos formado un equipo de líderes altamente capacitados que han
+            brindado apoyo a diversas organizaciones mediante una gama completa de servicios de consultoría.
+            Nuestro compromiso con la excelencia ha sido clave para el crecimiento de cada cliente.
+          </p>
+
+          <div class="values">
+            <div class="value">
+              <h4>Excelencia</h4>
+              <p>Procesos claros, entregables sólidos y enfoque en resultados.</p>
+            </div>
+            <div class="value">
+              <h4>Confianza</h4>
+              <p>Comunicación directa, atención y seguimiento en cada etapa.</p>
+            </div>
+            <div class="value">
+              <h4>Experiencia</h4>
+              <p>Metodologías probadas adaptadas a tu industria y necesidad.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4 class="card-title">Tu equipo de confianza</h4>
+          <p class="muted">
+            Profesionales comprometidos y expertos en su campo, trabajamos juntos para ofrecer soluciones excepcionales.
+          </p>
+          <p class="fine">
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Servicios ===== -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h3>Líneas de servicio</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="services">
+        <article class="service">
+          <span class="tag">Soporte RH</span>
+          <h4>SOPORTE A RECURSOS HUMANOS</h4>
+          <p>Evaluación, verificación y selección de talento de acuerdo con las necesidades de cada empresa.</p>
+        </article>
+
+        <article class="service">
+          <span class="tag">Capacitación</span>
+          <h4>CAPACITACIÓN DINÁMICA</h4>
+          <p>Programas de formación a la medida para niveles directivos, gerenciales y operativos.</p>
+        </article>
+
+        <article class="service">
+          <span class="tag">Consultoría</span>
+          <h4>CONSULTORÍA</h4>
+          <p>Recomendaciones viables e implementación de mejoras para productividad y competitividad.</p>
+        </article>
+
+        <article class="service">
+          <span class="tag">Online</span>
+          <h4>SERVICIOS ONLINE</h4>
+          <p>Explora servicios digitales y solicitudes rápidas desde un solo lugar.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Clientes (Carrusel) ===== -->
+  <section id="clientes" class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h3>Clientes</h3>
+          <p> </p>
+        </div>
+      </div>
+
+      <div class="carousel" data-carousel="clientes">
+        <button class="navbtn prev" type="button" aria-label="Anterior">‹</button>
+
+        <div class="track" aria-label="Carrusel de clientes">
+          <div class="slide logo"><img alt="Cliente 1" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+1"></div>
+          <div class="slide logo"><img alt="Cliente 2" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+2"></div>
+          <div class="slide logo"><img alt="Cliente 3" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+3"></div>
+          <div class="slide logo"><img alt="Cliente 4" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+4"></div>
+          <div class="slide logo"><img alt="Cliente 5" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+5"></div>
+          <div class="slide logo"><img alt="Cliente 6" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+6"></div>
+          <div class="slide logo"><img alt="Cliente 7" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+7"></div>
+          <div class="slide logo"><img alt="Cliente 8" src="https://dummyimage.com/500x200/ffffff/0c2a43&text=CLIENTE+8"></div>
+        </div>
+
+        <button class="navbtn next" type="button" aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Miembros (Carrusel) ===== -->
+  <section id="miembros" class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h3>Miembros</h3>
+          <p>Versión mejor acomodada (carrusel). Cambia nombres/roles por los reales.</p>
+        </div>
+      </div>
+
+      <div class="carousel" data-carousel="miembros">
+        <button class="navbtn prev" type="button" aria-label="Anterior">‹</button>
+
+        <div class="track" aria-label="Carrusel de miembros">
+          <div class="slide">
+            <div class="member">
+              <div class="avatar">AC</div>
+              <div>
+                <h5>Mao. Angel Cárcamo</h5>
+                <p>Director General • a.carcamo@grupocidi.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="member">
+              <div class="avatar">AN</div>
+              <div>
+                <h5>Ing. Ana Cárcamo</h5>
+                <p>Sales Manager • ventas@grupocidi.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="member">
+              <div class="avatar">MX</div>
+              <div>
+                <h5>Miembro 3</h5>
+                <p>Puesto • correo@grupomaxir.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="member">
+              <div class="avatar">MX</div>
+              <div>
+                <h5>Miembro 4</h5>
+                <p>Puesto • correo@grupomaxir.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="member">
+              <div class="avatar">MX</div>
+              <div>
+                <h5>Miembro 5</h5>
+                <p>Puesto • correo@grupomaxir.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="navbtn next" type="button" aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h3>Contacto</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card">
+          <form class="form" id="contactForm">
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" placeholder="Tu nombre" required />
+            </div>
+
+            <div class="field">
+              <label for="correo">Correo</label>
+              <input id="correo" type="email" placeholder="tu@correo.com" required />
+            </div>
+
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" placeholder="Cuéntanos qué necesitas..." required></textarea>
+            </div>
+
+            <button class="btn primary" type="submit">Enviar mensaje</button>
+            <p class="fine" id="formHint"></p>
+          </form>
+        </div>
+
+        <div class="card">
+          <h4 class="card-title">GRUPO MAXIR</h4>
+          <p class="muted">
+            Av. Jiménez Cantú s/n plaza Cantú piso 1 int 8<br>
+            Colonia centro urbano, Cuautitlán Izcalli, CP 54700
+          </p>
+
+          <div class="contact-box">
+            <div><strong>Teléfonos:</strong></div>
+            <div>55-5562-7889</div>
+            <div>55-5393-5177</div>
+            <div>55-8767-7046</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Grupo MAXIR. Todos los derechos reservados.</span>
+      
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
